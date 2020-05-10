@@ -1,0 +1,99 @@
+ /*reset css*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*background-image*/
+ .background-image-home {
+ 	background-image: url(superorganism2.jpg);
+ 	background-size: cover;
+ }
+  .background-image-about {
+ 	background-image: url(about-image.png);
+ 	background-size: cover;
+ }
+  .background-image-music {
+ 	background-image: url(superorganism2.jpg);
+ }
+  .background-image-contact {
+ 	background-image: url(superorganism2.jpg);
+ }
+
+
+
+/*navigation*/
+header {
+	padding-top: 50px;
+}
+.navigation {
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+}
+.navigation li {
+	text-decoration: none;
+}
+.navigation li:nth-child(2n+1) {
+	width: 1px;
+	border: 1px solid white;
+	background-color: white;
+}
+.navigation li a {
+	color: black;
+}
+.title-box {
+	padding: 200px;
+	text-align: center;
+}
+
+
+/*header {
+	padding-top: 50px;
+}
+.navigation {
+	list-style: none;
+    text-align: center;
+}
+.navigation li {
+	text-align: center;
+	padding: 20px;
+	display: inline-block;
+	text-decoration:none;
+
+}
+.navigation li:nth-of-type(n+2):nth-of-type(-n+4) {
+    border-left: 1px solid white;
+}
+
+
+.title-box {
+	padding: 200px;
+	color: white;
+	text-align: center;
+}*/
+
+
+/*ABOUT page*/
+.page-title {
+	margin-bottom: 50px;
+}
+.about-box {
+	padding: 20px 0;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+}
+.center {
+	text-align: center;
+}
+.center-box {
+	width: 400px;
+	margin: 0 auto;
+}
+.about-image {
+	width: 400px;
+	height: 250px;
+	background-image: url(superorganism.jpg);
+	background-size: cover;
+}

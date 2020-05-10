@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'homes/home'
+  root 'homes#home'
   get 'homes/about'
   get 'homes/contact'
   get 'homes/music'
