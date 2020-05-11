@@ -43,9 +43,17 @@ header {
 .navigation li a {
 	color: black;
 }
+.navigation li a:hover {
+	color: orange;
+}
+
+.navigation li a:nth-child(2)[src*="root_path"] {
+	color: red;
+}
 .title-box {
 	padding: 200px;
 	text-align: center;
+	color: white;
 }
 
 
@@ -79,10 +87,10 @@ header {
 .page-title {
 	margin-bottom: 50px;
 }
-.about-box {
+.contents-box {
 	padding: 20px 0;
 	background-color: rgba(0,0,0,0.5);
-	color: white;
+	color: white; 
 }
 .center {
 	text-align: center;
@@ -96,4 +104,75 @@ header {
 	height: 250px;
 	background-image: url(superorganism.jpg);
 	background-size: cover;
+}
+
+/*footer*/
+
+footer {
+	height: 10vh;
+	text-align: center;
+}
+.footer-text {
+	line-height: 10vh;
+	color: white;
+	
+}
+.center-contact-box {
+	padding: 20px 0 300px 0;
+
+}
+.contact-box {
+	text-align: center;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.disc-image1 {
+	background-image: url(jacket1.jpg);
+	width: 200px;
+	height: 200px;
+	background-size: cover;
+}
+.disc-image2 {
+	background-image: url(jacket2.jpg);
+	width: 200px;
+	height: 200px;
+	background-size: cover;
+}
+.disc-image3 {
+	background-image: url(jacket3.jpg);
+	width: 200px;
+	height: 200px;
+	background-size: cover;
+}
+
+.disc-list  {
+	list-style: none;
+}
+.disc-list li {
+	text-decoration: none;
+}
+
+.box {
+	display: flex;
+	width: 50%;
+	margin: 0 auto;
+}
+.music-contents-box:nth-child(2n+1) {
+	background-color: rgba(100,100,100,0.5);
+}
+.music-box {
+	width: 50%;
+}
+.music-contents-box {
+	padding: 60px 0;
+	background-color: rgba(0,0,0,0.5);
+	color: white; 
+}
+
+.box2 {
+	width: 50%;
+	margin: 0 auto;
 }
