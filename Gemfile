@@ -8,7 +8,7 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem 'jquery-rails'
 gem 'sqlite3'
 
-gem 'puma', '~> 3.11'
+gem 'puma', '~> 4.3'
 
 gem 'sass-rails', '~> 5.0'
 
